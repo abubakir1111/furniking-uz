@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+    .offer-box {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        .offer-left-content {
+            background-image: url(../../../assets/img/Offer/OfferLeftImg.png);
+            width: 669px;
+            height: 511px;
+            padding: 49px 31px;
+
+            .offer-left-content-box {
+                display: flex;
+                flex-direction: column;
+                gap: 13px;
+
+                .offer-left-content-title {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    h1 {
+                        color: rgb(85, 85, 85);
+                        font-family: "Mulish", sans-serif;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        text-transform: Capitalize
+                    }
+
+                    p {
+                        color: rgb(122, 199, 81);
+                        font-family: "Mulish" sans-serif;
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+
+            }
+
+            .offer-left-content-read-more {
+                display: flex;
+                align-items: center;
+                gap: 2px;
+
+                p {
+                    color: rgb(117, 117, 117);
+                    font-family: "Mulish", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+
+        }
+
+        .offer-right-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .offer-right-content-card {
+                width: 485px;
+                height: 247px;
+                background-image: url(../../../assets/img/Offer/RightImg1.png);
+                padding: 52px 11px;
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+
+                .offer-right-content-card-title {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    h1 {
+                        color: rgb(85, 85, 85);
+                        font-family: "Mulish", sans-serif;
+                        font-size: 22px;
+                        font-weight: 600;
+                        line-height: 28px;
+                        text-transform: capitalize;
+                    }
+
+                    p {
+                        color: rgb(122, 199, 81);
+                        font-family: "Mulish", sans-serif;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+
+                .offer-right-content-card-read-more {
+                    display: flex;
+                    align-items: center;
+                    gap: 2px;
+
+                    p {
+                        color: rgb(117, 117, 117);
+                        font-family: "Mulish", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                    }
+                }
+
+            }
+
+            .offer-right-content-card:nth-child(2) {
+                width: 485px;
+                height: 247px;
+                background-image: url(../../../assets/img/Offer/RightImg2.png);
+            }
+
+        }
+    }
+}

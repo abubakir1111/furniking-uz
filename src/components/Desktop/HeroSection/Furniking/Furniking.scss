@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.furniking {
+    margin-top: 22px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    .furniking-box {
+        width: 1172px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .furniking-title {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            h1 {
+                color: rgb(85, 85, 85);
+                font-family: "Rubik", sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+        }
+
+        .furniking-search {
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            input {
+                width: 582px;
+                height: 46px;
+                border: 2px solid rgb(122, 199, 81);
+                border-radius: 8px;
+                color: rgb(176, 176, 176);
+                font-family: "Rubik", sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                padding: 15px 25px;
+            }
+
+            input:focus {
+                border: 2px solid rgb(122, 199, 81);
+                outline: none;
+            }
+
+            .furniking-categories-search {
+                display: flex;
+                align-items: center;
+                gap: 21px;
+                position: absolute;
+                right: 0;
+
+                .furniking-categories {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 9px;
+
+                    .furniking-catgories-border {
+                        width: 1px;
+                        height: 42px;
+                        border: 1.5px solid rgba(227, 227, 227, 0.78);
+                    }
+
+                    .furniking-categories-text {
+                        display: flex;
+                        align-items: center;
+                        gap: 13px;
+
+                        p {
+                            color: rgb(85, 85, 85);
+                            font-family: "Rubik", sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 17px;
+                        }
+                    }
+                }
+                .furniking-categories-search-icon{
+                    button{
+                        width: 55px;
+                        height: 43px;
+                        border-radius: 0px 07px 06px 0px;
+                        background-color: rgb(122, 199, 81);
+                        border: none;
+                    }
+                }
+            }
+
+        }
+        .furniking-icon{
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            button{
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+}

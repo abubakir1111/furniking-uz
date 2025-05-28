@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.furniture-content {
+    width: 899px;
+    height: 439px;
+    border-radius: 1px;
+    backdrop-filter: blur(155px);
+    background: linear-gradient(134.71deg, rgba(241, 250, 255, 0.88) 0.885%, rgb(241, 250, 255) 101.611%);
+    padding-left: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    position: relative;
+    left: 11px;
+
+    .furniture-content-box {
+        display: flex;
+        align-items: center;
+
+        .furniture-content-title {
+
+            display: flex;
+            flex-direction: column;
+            gap: 29px;
+
+            .furniture-content-collections-year-title {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+
+                p {
+                    color: rgb(122, 199, 81);
+                    font-family: "Rubik", sans-serif;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 5%;
+                }
+
+                h1 {
+                    width: 318px;
+                    color: rgb(47, 47, 47);
+                    font-family: "Rubik", sans-serif;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 47px;
+                }
+            }
+
+            .furniture-content-button {
+
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+
+                p {
+                    color: rgba(81, 81, 81, 0.71);
+                    font-family: "Mulish", sans-serif;
+                    font-size: 27px;
+                    font-weight: 600;
+                    line-height: 26px;
+                }
+
+                button {
+                    width: 129px;
+                    height: 40px;
+                    border-radius: 5px;
+                    background-color: rgb(122, 199, 81);
+                    border: none;
+                    color: rgb(255, 255, 255);
+                    font-family: "Mulish", sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .furniture-content-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 23px;
+
+            .furniture-content-card-box {
+                width: 107px;
+                height: 91px;
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 8px;
+                box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0);
+                background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.56) 100%);
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .furniture-content-card-box-text {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 7px;
+
+                    p:nth-child(1) {
+
+                        color: rgb(122, 199, 81);
+                        font-family: "Rubik", sans-serif;
+                        font-size: 11px;
+                        font-weight: 500;
+                    }
+
+                    p:nth-child(2) {
+                        color: rgb(85, 85, 85);
+                        font-family: "Rubik", sans-serif;
+                        font-size: 7px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

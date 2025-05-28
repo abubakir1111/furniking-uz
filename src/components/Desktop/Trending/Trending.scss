@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.trending {
+    width: 1170px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .trending-box {
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+
+        .trending-box-title-text-box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 45px;
+
+            .trending-box-title {
+                h1 {
+                    color: rgb(85, 85, 85);
+                    font-family: "Mulish", sans-serif;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 45px;
+                    text-transform: capitalize;
+                }
+            }
+
+            .trending-box-category {
+                .trending-box-category-link {
+                    color: rgb(194, 194, 194);
+                    font-family: "Mulish", sans-serif;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+            }
+
+            .trending-box-category {
+                display: flex;
+                align-items: center;
+                gap: 70px;
+            }
+        }
+
+        .trending-card {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 73px;
+            gap: 30px;
+
+            .trending-box-card {
+                .trending-box-card-img {
+                    width: 269.03px;
+                    height: 287.82px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+
+                    p {
+                        width: 44.68px;
+                        height: 20.42px;
+                        // background-color: rgb(0, 183, 241);
+                        border-radius: 0 0 5px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: rgb(255, 255, 255);
+                        font-family: "Mulish", sans-serif;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 130%;
+
+
+                    }
+                }
+
+                .trending-box-card-text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    .trending-box-box-chair-minimal {
+                        margin-top: 15px;
+
+                        p {
+                            color: rgb(117, 117, 117, 0.7);
+                            font-family: "Mulish" sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            text-transform: capitalize;
+                        }
+
+                        h2 {
+                            margin-top: 9px;
+                            color: rgb(85, 85, 85);
+                            font-family: "Rubik", sans-serif;
+                            font-size: 20px;
+                            font-weight: 400;
+                            text-transform: capitalize;
+                        }
+                    }
+
+                    .trending-box-card-price-evaluation {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .trending-box-card-price {
+                            display: flex;
+                            align-items: center;
+                            gap: 7px;
+
+                            p:nth-child(1) {
+                                color: rgb(122, 199, 81);
+                                font-family: "Mulish" sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 120%;
+                                letter-spacing: 0.5%;
+
+
+                            }
+
+                            p:nth-child(2) {
+                                color: rgb(204, 204, 204);
+                                font-family: "Mulish", sans-serif;
+                                font-size: 18px;
+                                font-weight: 600;
+                                line-height: 120%;
+                                letter-spacing: 0.5%;
+                                text-decoration-line: line-through;
+                            }
+                        }
+
+                        .trending-box-card-evaluation {
+                            .like-button {
+                                background: transparent;
+                                border: none;
+                                cursor: pointer;
+                                font-size: 40px;
+                                transition: transform 0.2s ease;
+                            }
+
+                            .like-button:hover {
+                                transform: scale(1.2);
+                            }
+
+                            .heart {
+                                display: inline-block;
+                                transition: transform 0.2s ease, color 0.2s ease;
+                            }
+
+                            .liked .heart {
+                                animation: pop 0.3s ease;
+                            }
+
+                            @keyframes pop {
+                                0% {
+                                    transform: scale(1);
+                                }
+
+                                50% {
+                                    transform: scale(1.6);
+                                }
+
+                                100% {
+                                    transform: scale(1);
+                                }
+                            }
+
+                            .like-button {
+                                background: transparent;
+                                border: none;
+                                cursor: pointer;
+                                font-size: 40px;
+                                transition: transform 0.2s ease;
+                            }
+
+                            .like-button:hover {
+                                transform: scale(1.2);
+                            }
+
+                            .heart {
+                                display: inline-block;
+                                transition: transform 0.2s ease, color 0.2s ease;
+                            }
+
+                            .liked .heart {
+                                animation: pop 0.3s ease;
+                            }
+
+                            @keyframes pop {
+                                0% {
+                                    transform: scale(1);
+                                }
+
+                                50% {
+                                    transform: scale(1.6);
+                                }
+
+                                100% {
+                                    transform: scale(1);
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
