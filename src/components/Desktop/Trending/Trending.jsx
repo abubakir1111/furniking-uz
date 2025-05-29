@@ -35,7 +35,7 @@ function Trending() {
                     <p style={{ backgroundColor: trendingCard.imgTextColor }}>{trendingCard.imgText}</p>
                   </div>
                   <div className="trending-box-card-hover-feature">
-                    {/* <button></button> */}
+                    <button></button>
                   </div>
                 </div>
                 <div className="trending-box-card-text">
